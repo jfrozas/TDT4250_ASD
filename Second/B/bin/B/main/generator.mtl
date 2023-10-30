@@ -1,0 +1,89 @@
+[comment encoding = UTF-8 /]
+[module generator('platform:/plugin/TDT4250.Assignement1.GJ/model/StudyProgram.ecore')]
+
+
+[template public generateElement(ComputerScience : Studyprogram)]
+[comment @main/]
+[file ('1'+ComputerScience.name + '.html', false, 'UTF-8')]
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type ="text/css" href="mycss.css" media="all" />
+</head>
+<body>
+<div id="principal">
+<h1 align = "center">[ComputerScience.name/]</h1>
+<select name="selector" id="selector">
+	[for (f : Fieldofstudy | ComputerScience.Field)]
+		<option value = [f.name/]>[f.name/]</option>
+		
+	[/for]
+	<option value = FieldOfStudy selected>Field of Study</option>
+</select>
+<ul>
+[for (y : Year | ComputerScience.YearCoursed)]
+	<li id = "cambio2">Year: [y.name/]</li>
+	<table border = "1" id = "tabla1">
+			
+		[for (s : Semester | y.Semestercoursed)]
+			<tr>
+				<td align = "center" id="Change">
+				[s.Season/]
+				</td>
+				<td>	
+				<table border = "1" id = "tabla2">
+				[for (c : Course | s.Courses)]
+					<tr>
+						<td align = "center">
+						<a href = "[c.name/].html">[c.name/]</a>
+						</td>
+						<td align = "center">
+						[c.code/]
+						</td>
+						<td align = "center">
+						[c.credits/] 
+						</td>
+						<td align = "center">
+						[c.status/]
+						</td>
+					</tr>
+				[/for]
+				</table>
+				</td>
+			</tr>
+		[/for]
+	</table>
+[/for]
+</ul>
+<ul>
+[for (y : Year | ComputerScience.YearCoursed)]
+	<ul>
+	[for (s : Semester | y.Semestercoursed)]
+		<ul>
+		[for (c : Course | s.Courses)]
+			[file (c.name + '.html', false, 'UTF-8')]
+				<h1 align = "center">[c.code/]-[c.name/]</h1>
+				<div id= "a">
+				<h2>Credits: [c.credits/]</h2>
+				
+				[for (p : Person | c.Coordinator)]
+				<h2>Coordinator: [p.Firstname/] [p.Secondname/]</h2>
+				[/for]
+				
+				<h2>Status: [c.status/]</h2>
+				<h2>Done in: [s.Season/]</h2>
+				</div>
+			[/file]
+		[/for]
+		</ul>
+	[/for]
+	</ul>
+[/for]
+</ul>
+</div>
+</body>
+</html>
+[/file]
+[/template]

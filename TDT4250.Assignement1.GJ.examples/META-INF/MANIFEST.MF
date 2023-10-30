@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Examples
+Bundle-SymbolicName: TDT4250.Assignement1.GJ.examples
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: TDT4250.Assignement1.GJ.examples
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Require-Bundle: TDT4250.Assignement1.GJ;bundle-version="0.1.0"

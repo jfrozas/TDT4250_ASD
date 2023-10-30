@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StudyProgram:Studyprogram
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:StudyProgram="platform:/plugin/TDT4250.Assignement1.GJ/model/StudyProgram.ecore"
+    xsi:schemaLocation="platform:/plugin/TDT4250.Assignement1.GJ/model/StudyProgram.ecore StudyProgram.ecore"
+    name="Computer technology - master's degree (5-year)"
+    Yearslong="5">
+  <YearCoursed
+      name="1">
+    <Semestercoursed>
+      <Courses
+          name="Examen philosophicum for Science and Technology"
+          code="EXPH0300"
+          credits="7.5"
+          Coordinator="//@Staff.30"/>
+      <Courses
+          name="Information Technology, Introduction"
+          code="TDT4109"
+          credits="7.5"
+          Coordinator="//@Staff.0"/>
+      <Courses
+          name="Calculus 1"
+          code="TMA4100"
+          credits="7.5"
+          Coordinator="//@Staff.1"/>
+      <Courses
+          name="Discrete mathematics"
+          code="TMA4140"
+          credits="7.5"
+          Coordinator="//@Staff.2"/>
+    </Semestercoursed>
+    <Semestercoursed
+        Season="Spring">
+      <Courses
+          name="Object-Oriented Programming"
+          code="TDT4100"
+          credits="7.5"
+          Coordinator="//@Staff.3"/>
+      <Courses
+          name="HumanComputer Interaction"
+          code="TDT4180"
+          credits="7.5"
+          Coordinator="//@Staff.4"/>
+      <Courses
+          name="Electrical Circuits and Digital Design"
+          code="TFE4101"
+          credits="7.5"/>
+      <Courses
+          name="Calculus 3"
+          code="TMA4115"
+          credits="7.5"
+          Coordinator="//@Staff.5"/>
+    </Semestercoursed>
+  </YearCoursed>
+  <YearCoursed
+      name="2">
+    <Semestercoursed>
+      <Courses
+          name="Informatics, Project I"
+          code="IT1901"
+          credits="7.5"
+          Coordinator="//@Staff.6"/>
+      <Courses
+          name="Algorithms and Data Structures"
+          code="TDT4120"
+          credits="7.5"
+          Coordinator="//@Staff.7"/>
+      <Courses
+          name="Computers and Digital Design"
+          code="TDT4160"
+          credits="7.5"
+          Coordinator="//@Staff.8"/>
+      <Courses
+          name="Statistics"
+          code="TMA4240"
+          credits="7.5"
+          Coordinator="//@Staff.9"/>
+    </Semestercoursed>
+    <Semestercoursed
+        Season="Spring">
+      <Courses
+          name="Computer Science, Programming Project"
+          code="TDT4113"
+          credits="7.5"
+          Coordinator="//@Staff.10"/>
+      <Courses
+          name="Software Engineering"
+          code="TDT4140"
+          credits="7.5"
+          Coordinator="//@Staff.11"/>
+      <Courses
+          name=" Data Modelling, Databases and Database Management Systems"
+          code="TDT4145"
+          credits="7.5"
+          Coordinator="//@Staff.12"/>
+      <Courses
+          name=" Communication - Services and Networks"
+          code="TTM4100"
+          credits="7.5"
+          Coordinator="//@Staff.13"/>
+    </Semestercoursed>
+  </YearCoursed>
+  <YearCoursed
+      name="3">
+    <Semestercoursed>
+      <Courses
+          name="Introduction to Artificial Intelligence"
+          code="TDT4136"
+          credits="7.5"
+          Coordinator="//@Staff.14"/>
+      <Courses
+          name="Cognitive Architectures"
+          code="TDT4137"
+          credits="7.5"
+          Coordinator="//@Staff.15"/>
+      <Courses
+          name="Mathematics 4D "
+          code="TMA4135"
+          credits="7.5"
+          Coordinator="//@Staff.16"/>
+      <Courses
+          name="Web Development"
+          code="IT2810"
+          status="Elective"
+          credits="7.5"
+          Coordinator="//@Staff.17"/>
+    </Semestercoursed>
+    <Semestercoursed
+        Season="Spring">
+      <Courses
+          name="Artificial Intelligence Methods"
+          code="TDT4171"
+          credits="7.5"
+          Coordinator="//@Staff.18"/>
+      <Courses
+          name="Operating Systems"
+          code="TDT4186"
+          credits="7.5"
+          Coordinator="//@Staff.19"/>
+      <Courses
+          name="Physics"
+          code="TFY4125"
+          credits="7.5"
+          Coordinator="//@Staff.20"/>
+      <Courses
+          name="Technology Management"
+          code="TIØ4252"
+          credits="7.5"
+          Coordinator="//@Staff.21"/>
+    </Semestercoursed>
+  </YearCoursed>
+  <YearCoursed
+      name="4">
+    <Semestercoursed>
+      <Courses
+          name="Machine Learning"
+          code="TDT4173"
+          credits="7.5"
+          Coordinator="//@Staff.10"/>
+      <Courses
+          name=" Customer Driven Project"
+          code="TDT4290"
+          credits="15.0"
+          Coordinator="//@Staff.22"/>
+      <Courses
+          name="Architecture as a Technological Practice"
+          code="AAR4250"
+          status="Elective"
+          credits="7.5"
+          Coordinator="//@Staff.23"/>
+    </Semestercoursed>
+    <Semestercoursed
+        Season="Spring">
+      <Courses
+          name="Artificial Intelligence Programming"
+          code="IT3105"
+          credits="7.5"
+          Coordinator="//@Staff.24"/>
+      <Courses
+          name="Deep Learning"
+          code="IT3030"
+          status="Elective"
+          credits="7.5"
+          Coordinator="//@Staff.25"/>
+      <Courses
+          name="Bio-Inspired Artificial Intelligence"
+          code="IT3708"
+          status="Elective"
+          credits="7.5"
+          Coordinator="//@Staff.26"/>
+      <Courses
+          name="Recommender Systems"
+          code="TDT4215"
+          status="Elective"
+          credits="7.5"
+          Coordinator="//@Staff.27"/>
+    </Semestercoursed>
+  </YearCoursed>
+  <YearCoursed
+      name="5">
+    <Semestercoursed>
+      <Courses
+          name="Computer Science, Specialization Project"
+          code="TDT4501"
+          credits="15.0"
+          Coordinator="//@Staff.28"/>
+      <Courses
+          name="Computer Science, Specialization Course"
+          code="TDT4506"
+          status="Elective"
+          credits="7.5"
+          Coordinator="//@Staff.28"/>
+      <Courses
+          name="Architecture as a Technological Practice"
+          code="AAR4250"
+          status="Elective"
+          credits="7.5"
+          Coordinator="//@Staff.29"/>
+    </Semestercoursed>
+    <Semestercoursed
+        Season="Spring">
+      <Courses
+          name="Computer Science, Master's Thesis"
+          code="TDT4900"
+          credits="30.0"
+          Coordinator="//@Staff.28"/>
+    </Semestercoursed>
+  </YearCoursed>
+  <Field name="Artificial Intelligence"
+      Year="//@YearCoursed.2 //@YearCoursed.3 //@YearCoursed.4"/>
+  <Staff Firstname="Alf"
+      Secondname=" Inge Wang"/>
+  <Staff Firstname="Marius"
+      Secondname="Thaule"/>
+  <Staff Firstname="Swear"
+      Secondname="Olaf Smalø"/>
+  <Staff Firstname="Hallvard"
+      Secondname="Trætteberg"/>
+  <Staff Firstname="Day"
+      Secondname="Svanæs"/>
+  <Staff Firstname="Aslak"
+      Secondname="Bakke Buan"/>
+  <Staff Firstname="George"
+      Secondname="Adrian Stoica"/>
+  <Staff Firstname="Magnus"
+      Secondname="Lie Hetland"/>
+  <Staff Firstname="Gunnar"
+      Secondname="Tufte"/>
+  <Staff Firstname="Håkon"
+      Secondname="Tjelmeland"/>
+  <Staff Firstname="Zhirong"
+      Secondname="Yang"/>
+  <Staff Firstname="Torgeir"
+      Secondname="Dingsøyr"/>
+  <Staff Firstname="Svein"
+      Secondname="Erik Bratsberg"/>
+  <Staff Firstname="Norvald"
+      Secondname="Stol"/>
+  <Staff Firstname="Pinar"
+      Secondname="Øztürk"/>
+  <Staff Firstname="Rudolf"
+      Secondname="Mester"/>
+  <Staff Firstname="André"
+      Secondname="Jürgen Massing"/>
+  <Staff Firstname="Trond"
+      Secondname="Aalberg"/>
+  <Staff Firstname="Helge"
+      Secondname="Langseth"/>
+  <Staff Firstname="Michael"
+      Secondname="Engel"/>
+  <Staff Firstname="Jon"
+      Secondname="Andreas Støvneng"/>
+  <Staff Firstname="Aud"
+      Secondname="Marit Wahl"/>
+  <Staff Firstname="Maria"
+      Secondname="Letizia Jaccheri"/>
+  <Staff Firstname="Bjørn"
+      Secondname="Normann Sandaker"/>
+  <Staff Firstname="Keith"
+      Secondname="Linn Downing"/>
+  <Staff Firstname="Boye"
+      Secondname="Annfelt Høverstad"/>
+  <Staff Firstname="Ole"
+      Secondname="Jakob Mengshoel"/>
+  <Staff Firstname="Özlem"
+      Secondname="Özgöbek"/>
+  <Staff Firstname="Patrik"
+      Secondname="Mikalef"/>
+  <Staff Firstname="Bjørn"
+      Secondname="Normann Sandaker"/>
+  <Staff Firstname="Kjetil"
+      Secondname=" Mangset Skjerve"/>
+</StudyProgram:Studyprogram>
