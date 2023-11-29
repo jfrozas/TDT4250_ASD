@@ -14,7 +14,7 @@ Screenshots:
 ![Image](images/captura7.png)
 ![Image](images/captura8.png)
 ![Image](images/captura9.png)
-## Assignement 2
+
 ## SETUP
 1)Clone repository
 
@@ -38,7 +38,7 @@ Screenshots:
 We have transformed the .xmi to a webpage to show the information, through acceleo on a .mtl file.
 We used an M2T transformation.
 
-## This is from assignement 1
+
 ## SETUP
 1)Clone repository
 
